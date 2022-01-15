@@ -3,8 +3,8 @@
 con = input('Is SOPR Ratio growing? say it yes or no')
 
 if (con == 'yes'):
-  sum -= 1
+  sum.append(-1)
 elif (con == 'no'):
-  sum += 1
+  sum.append(1)
 else:
   print('say it yes or no')
