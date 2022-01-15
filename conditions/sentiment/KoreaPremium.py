@@ -3,15 +3,15 @@
 con = int(input('input value of Korea Premium Index'))
 
 if (con >= 9):
-  sum -= 3
+  sum.append(-3)
 elif (9 > con >= 6):
-  sum -= 2
+  sum.append(-2)
 elif (6 > con >= 4):
-  sum -= 1
+  sum.append(-1)
 elif (4 > con >= 2):
   print('')
 elif (2 > con >= 0):
-  sum += 1
+  sum.append(1)
 elif (0 > con)
-  sum += 3
+  sum.append(3)
   print('strong buy signal on Kimchi Premium')
