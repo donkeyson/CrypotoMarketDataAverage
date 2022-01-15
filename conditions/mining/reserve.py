@@ -2,9 +2,9 @@
 
 con = input('Is Miner Reserve growing? say it yes or no')
 
-if (con == yes):
+if (con == 'yes'):
   sum += 1
-elif (con == no):
+elif (con == 'no'):
   sum -= 1
 else:
   print('say it yes or no')
