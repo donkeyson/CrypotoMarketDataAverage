@@ -1,6 +1,6 @@
 //크립토 퀀트
 
-con = int(input('input value of Korea Premium Index'))
+con = float(input('input value of Korea Premium Index'))
 
 if (con >= 9):
   sum.append(-3)
