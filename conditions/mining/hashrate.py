@@ -1,5 +1,5 @@
-//해쉬레이트
-con = 'is hash rate under the price? say it yes or no'
+#해쉬레이트
+con = input('is hash rate under the price? say it yes or no; ')
 if (con == 'yes'):
   sum.append(-1)
 elif (con == 'no'):
