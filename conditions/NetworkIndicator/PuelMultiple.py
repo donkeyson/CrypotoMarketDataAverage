@@ -1,6 +1,6 @@
 //크립토 퀀트
 
-con = int(input('input value of PuelMultiple'))
+con = float(input('input value of PuelMultiple'))
 
 if (con >= 2):
   sum.append(-2)
