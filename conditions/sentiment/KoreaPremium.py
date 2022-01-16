@@ -12,6 +12,6 @@ elif (4 > con >= 2):
   print('')
 elif (2 > con >= 0):
   sum.append(1)
-elif (0 > con)
+elif (0 > con):
   sum.append(3)
   print('strong buy signal on Kimchi Premium')
